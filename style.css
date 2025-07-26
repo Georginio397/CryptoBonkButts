@@ -3,14 +3,14 @@
 
 @font-face {
   font-family: 'Caprasimo';
-  src: url('/fonts/Caprasimo.woff2') format('woff2');
+  src: url('/fonts/PixelifySans.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Medium';
-  src: url('/fonts/Medium.woff2') format('woff2');
+  src: url('/fonts/PixelifySans.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,7 +37,7 @@ h1, h2, h3 {
 
 
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 h2 {
@@ -220,7 +220,7 @@ a:hover {
     grid-template-columns: repeat(2, 1fr); /* tot 2 pentru lizibilitate */
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
