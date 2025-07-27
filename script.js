@@ -14,7 +14,7 @@ function autoSlide() {
 }
 
 function copyContract() {
-  const contractText = "Ca:Soon";
+  const contractText = "9eh8nw8bypgNqHSQr63n9VR1ohxPwrdX8E5dfhpLF8wv";
   navigator.clipboard.writeText(contractText).then(() => {});
 }
 
