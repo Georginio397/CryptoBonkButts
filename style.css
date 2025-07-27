@@ -253,6 +253,8 @@ a:hover {
 
 
 
+
+
 .subtitle {
   color: #ffffff;
   font-style: italic;
@@ -334,8 +336,8 @@ a:hover {
   margin-top: 40px;
   text-align: center;
   font-family: monospace;
-  color: #111;
-  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  
   padding: 16px;
   border-radius: 25px;
   max-width: 400px;
@@ -346,10 +348,11 @@ a:hover {
 
 .contract-header {
   display: flex;
+  font-size: 1.5rem;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  color: #000;
+  color: #ffffff;
 }
 
 .contract-actions button,
@@ -375,14 +378,33 @@ a:hover {
 }
 
 
-
-
 .social-links {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 24px;
 }
+
+.social-links a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border: 2px solid #ffae00; /* culoare glow */
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+
+  /* Glow efect */
+  box-shadow: 0 0 10px #ffbb00, 0 0 20px #ff5100;
+}
+
+.social-links a:hover {
+  box-shadow: 0 0 15px #ff3300, 0 0 30px #ff0000;
+  transform: scale(1.05);
+}
+
 
 .social-links img {
   width: 32px;
